@@ -1,4 +1,4 @@
-# 💤 Philippe Lammerts LazyVim setup
+# 💤 My LazyVim setup
 
 My template for [LazyVim](https://github.com/LazyVim/LazyVim).
 
