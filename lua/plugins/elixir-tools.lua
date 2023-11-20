@@ -8,10 +8,12 @@ return {
 
     elixir.setup({
       credo = { enable = true },
+      nextls = { enable = false, init_options = { experimental = { completions = { enable = true } } } },
       elixirls = {
         tag = "v0.17.1",
         enable = true,
         settings = elixirls.settings({
+          fetchDeps = false,
           dialyzerEnabled = false,
           enableTestLenses = true,
         }),
